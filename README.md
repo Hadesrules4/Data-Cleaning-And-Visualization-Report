@@ -9,6 +9,7 @@ A beginner-friendly Python project that cleans a deliberately messy retail sales
 - Imputes numeric values with medians and categorical values with modes
 - Recalculates sales from quantity × unit price
 - Generates five charts and a data-quality report
+- Includes SVG chart previews in the repository; running the script regenerates PNG charts
 
 ## Run on Windows
 ```bat
@@ -16,7 +17,7 @@ py -m pip install -r requirements.txt
 py main.py
 ```
 
-Open `reports/data_quality_report.txt` and the charts under `reports/charts/`.
+Open `reports/data_quality_report.txt` and the SVG previews under `reports/charts/`. Running `main.py` also generates PNG versions of the charts.
 
 ## Project structure
 - `main.py` — cleaning, analysis, charting, and report generation
