@@ -1,0 +1,20 @@
+DATA CLEANING & VISUALIZATION — QUALITY REPORT
+====================================================
+
+DATA QUALITY AUDIT
+Original rows: 61
+Duplicate rows removed: 1
+Missing cells before cleaning: 14
+Final rows: 60
+Missing cells after cleaning: 0
+
+KEY FINDINGS
+Total sales: INR 49,78,640.00
+Average order value: INR 82,977.33
+Top product by sales: Laptop
+Top region by sales: East
+Best month by sales: 2025-06
+
+Cleaning rules: removed duplicate records, corrected invalid quantity/price/rating values,
+filled missing categorical values, and recalculated sales as quantity × unit price.
+The included dataset is synthetic and intended for learning.
